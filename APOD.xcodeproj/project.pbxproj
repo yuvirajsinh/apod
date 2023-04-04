@@ -10,12 +10,38 @@
 		7DB5A6F229DC139F00710C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A6F129DC139F00710C18 /* AppDelegate.swift */; };
 		7DB5A6F429DC139F00710C18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A6F329DC139F00710C18 /* SceneDelegate.swift */; };
 		7DB5A6F629DC139F00710C18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A6F529DC139F00710C18 /* ViewController.swift */; };
-		7DB5A6F929DC139F00710C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5A6F729DC139F00710C18 /* Main.storyboard */; };
 		7DB5A6FB29DC13A100710C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5A6FA29DC13A100710C18 /* Assets.xcassets */; };
 		7DB5A6FE29DC13A100710C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5A6FC29DC13A100710C18 /* LaunchScreen.storyboard */; };
 		7DB5A70929DC13A100710C18 /* APODTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A70829DC13A100710C18 /* APODTests.swift */; };
 		7DB5A71329DC13A100710C18 /* APODUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A71229DC13A100710C18 /* APODUITests.swift */; };
 		7DB5A71529DC13A100710C18 /* APODUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A71429DC13A100710C18 /* APODUITestsLaunchTests.swift */; };
+		7DB5A73329DC15BE00710C18 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72429DC15BE00710C18 /* HomeViewModel.swift */; };
+		7DB5A73429DC15BE00710C18 /* APODDataInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72529DC15BE00710C18 /* APODDataInteractorProtocol.swift */; };
+		7DB5A73529DC15BE00710C18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72629DC15BE00710C18 /* HomeViewController.swift */; };
+		7DB5A73629DC15BE00710C18 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72729DC15BE00710C18 /* HomeBuilder.swift */; };
+		7DB5A73729DC15BE00710C18 /* APODContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72829DC15BE00710C18 /* APODContentView.swift */; };
+		7DB5A73829DC15BE00710C18 /* APODRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72929DC15BE00710C18 /* APODRepository.swift */; };
+		7DB5A73929DC15BE00710C18 /* APODDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72A29DC15BE00710C18 /* APODDataInteractor.swift */; };
+		7DB5A73A29DC15BE00710C18 /* APODAPIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72B29DC15BE00710C18 /* APODAPIRepository.swift */; };
+		7DB5A73B29DC15BE00710C18 /* APODCacheRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72C29DC15BE00710C18 /* APODCacheRepository.swift */; };
+		7DB5A73C29DC15BE00710C18 /* PanZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A72E29DC15BE00710C18 /* PanZoomImageView.swift */; };
+		7DB5A73D29DC15BE00710C18 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A73029DC15BE00710C18 /* PhotoDetailViewController.swift */; };
+		7DB5A73E29DC15BE00710C18 /* PhotoDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A73129DC15BE00710C18 /* PhotoDetailBuilder.swift */; };
+		7DB5A73F29DC15BE00710C18 /* PhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A73229DC15BE00710C18 /* PhotoDetailViewModel.swift */; };
+		7DB5A74729DC171500710C18 /* APODResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A74429DC171500710C18 /* APODResponseModel.swift */; };
+		7DB5A74829DC171500710C18 /* APODData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A74529DC171500710C18 /* APODData.swift */; };
+		7DB5A74929DC171500710C18 /* APODRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A74629DC171500710C18 /* APODRequestModel.swift */; };
+		7DB5A74C29DC37C200710C18 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A74B29DC37C200710C18 /* ImageCache.swift */; };
+		7DB5A75329DC37D100710C18 /* Encodable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A74F29DC37D100710C18 /* Encodable+JSON.swift */; };
+		7DB5A75429DC37D100710C18 /* UIImageview+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A75029DC37D100710C18 /* UIImageview+URL.swift */; };
+		7DB5A75529DC37D100710C18 /* UIScrollview+ArrangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A75129DC37D100710C18 /* UIScrollview+ArrangeView.swift */; };
+		7DB5A75E29DC37D800710C18 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A75729DC37D800710C18 /* ParameterEncoding.swift */; };
+		7DB5A75F29DC37D800710C18 /* APODEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A75929DC37D800710C18 /* APODEndpoint.swift */; };
+		7DB5A76029DC37D800710C18 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A75A29DC37D800710C18 /* API.swift */; };
+		7DB5A76129DC37D800710C18 /* Ednpoint+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A75B29DC37D800710C18 /* Ednpoint+Default.swift */; };
+		7DB5A76229DC37D800710C18 /* APODResponseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5A75C29DC37D800710C18 /* APODResponseData.json */; };
+		7DB5A76329DC37D800710C18 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A75D29DC37D800710C18 /* Endpoint.swift */; };
+		7DB5A76529DC633700710C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5A76429DC633700710C18 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +66,6 @@
 		7DB5A6F129DC139F00710C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DB5A6F329DC139F00710C18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7DB5A6F529DC139F00710C18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DB5A6F829DC139F00710C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DB5A6FA29DC13A100710C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB5A6FD29DC13A100710C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DB5A6FF29DC13A100710C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +74,33 @@
 		7DB5A70E29DC13A100710C18 /* APODUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APODUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB5A71229DC13A100710C18 /* APODUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODUITests.swift; sourceTree = "<group>"; };
 		7DB5A71429DC13A100710C18 /* APODUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DB5A72429DC15BE00710C18 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7DB5A72529DC15BE00710C18 /* APODDataInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODDataInteractorProtocol.swift; sourceTree = "<group>"; };
+		7DB5A72629DC15BE00710C18 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7DB5A72729DC15BE00710C18 /* HomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		7DB5A72829DC15BE00710C18 /* APODContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODContentView.swift; sourceTree = "<group>"; };
+		7DB5A72929DC15BE00710C18 /* APODRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODRepository.swift; sourceTree = "<group>"; };
+		7DB5A72A29DC15BE00710C18 /* APODDataInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODDataInteractor.swift; sourceTree = "<group>"; };
+		7DB5A72B29DC15BE00710C18 /* APODAPIRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODAPIRepository.swift; sourceTree = "<group>"; };
+		7DB5A72C29DC15BE00710C18 /* APODCacheRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODCacheRepository.swift; sourceTree = "<group>"; };
+		7DB5A72E29DC15BE00710C18 /* PanZoomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanZoomImageView.swift; sourceTree = "<group>"; };
+		7DB5A73029DC15BE00710C18 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		7DB5A73129DC15BE00710C18 /* PhotoDetailBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailBuilder.swift; sourceTree = "<group>"; };
+		7DB5A73229DC15BE00710C18 /* PhotoDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModel.swift; sourceTree = "<group>"; };
+		7DB5A74429DC171500710C18 /* APODResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODResponseModel.swift; sourceTree = "<group>"; };
+		7DB5A74529DC171500710C18 /* APODData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODData.swift; sourceTree = "<group>"; };
+		7DB5A74629DC171500710C18 /* APODRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODRequestModel.swift; sourceTree = "<group>"; };
+		7DB5A74B29DC37C200710C18 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		7DB5A74F29DC37D100710C18 /* Encodable+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+JSON.swift"; sourceTree = "<group>"; };
+		7DB5A75029DC37D100710C18 /* UIImageview+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageview+URL.swift"; sourceTree = "<group>"; };
+		7DB5A75129DC37D100710C18 /* UIScrollview+ArrangeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollview+ArrangeView.swift"; sourceTree = "<group>"; };
+		7DB5A75729DC37D800710C18 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		7DB5A75929DC37D800710C18 /* APODEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODEndpoint.swift; sourceTree = "<group>"; };
+		7DB5A75A29DC37D800710C18 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7DB5A75B29DC37D800710C18 /* Ednpoint+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ednpoint+Default.swift"; sourceTree = "<group>"; };
+		7DB5A75C29DC37D800710C18 /* APODResponseData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APODResponseData.json; sourceTree = "<group>"; };
+		7DB5A75D29DC37D800710C18 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		7DB5A76429DC633700710C18 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +154,12 @@
 				7DB5A6F129DC139F00710C18 /* AppDelegate.swift */,
 				7DB5A6F329DC139F00710C18 /* SceneDelegate.swift */,
 				7DB5A6F529DC139F00710C18 /* ViewController.swift */,
-				7DB5A6F729DC139F00710C18 /* Main.storyboard */,
+				7DB5A75629DC37D800710C18 /* Networking */,
+				7DB5A74D29DC37D100710C18 /* Extensions */,
+				7DB5A74A29DC37C200710C18 /* Utility */,
+				7DB5A72229DC15BE00710C18 /* Modules */,
 				7DB5A6FA29DC13A100710C18 /* Assets.xcassets */,
+				7DB5A76429DC633700710C18 /* Main.storyboard */,
 				7DB5A6FC29DC13A100710C18 /* LaunchScreen.storyboard */,
 				7DB5A6FF29DC13A100710C18 /* Info.plist */,
 			);
@@ -125,6 +181,124 @@
 				7DB5A71429DC13A100710C18 /* APODUITestsLaunchTests.swift */,
 			);
 			path = APODUITests;
+			sourceTree = "<group>";
+		};
+		7DB5A72229DC15BE00710C18 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A72D29DC15BE00710C18 /* CommonViews */,
+				7DB5A72329DC15BE00710C18 /* Home */,
+				7DB5A72F29DC15BE00710C18 /* Detail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7DB5A72329DC15BE00710C18 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A74029DC165700710C18 /* View */,
+				7DB5A74329DC170200710C18 /* Model */,
+				7DB5A74229DC168900710C18 /* Repository */,
+				7DB5A74129DC167100710C18 /* Interactor */,
+				7DB5A72429DC15BE00710C18 /* HomeViewModel.swift */,
+				7DB5A72629DC15BE00710C18 /* HomeViewController.swift */,
+				7DB5A72729DC15BE00710C18 /* HomeBuilder.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7DB5A72D29DC15BE00710C18 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A72E29DC15BE00710C18 /* PanZoomImageView.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		7DB5A72F29DC15BE00710C18 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A73029DC15BE00710C18 /* PhotoDetailViewController.swift */,
+				7DB5A73129DC15BE00710C18 /* PhotoDetailBuilder.swift */,
+				7DB5A73229DC15BE00710C18 /* PhotoDetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		7DB5A74029DC165700710C18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A72829DC15BE00710C18 /* APODContentView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7DB5A74129DC167100710C18 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A72529DC15BE00710C18 /* APODDataInteractorProtocol.swift */,
+				7DB5A72A29DC15BE00710C18 /* APODDataInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		7DB5A74229DC168900710C18 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A72929DC15BE00710C18 /* APODRepository.swift */,
+				7DB5A72B29DC15BE00710C18 /* APODAPIRepository.swift */,
+				7DB5A72C29DC15BE00710C18 /* APODCacheRepository.swift */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		7DB5A74329DC170200710C18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A74529DC171500710C18 /* APODData.swift */,
+				7DB5A74629DC171500710C18 /* APODRequestModel.swift */,
+				7DB5A74429DC171500710C18 /* APODResponseModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7DB5A74A29DC37C200710C18 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A74B29DC37C200710C18 /* ImageCache.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7DB5A74D29DC37D100710C18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A74F29DC37D100710C18 /* Encodable+JSON.swift */,
+				7DB5A75029DC37D100710C18 /* UIImageview+URL.swift */,
+				7DB5A75129DC37D100710C18 /* UIScrollview+ArrangeView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7DB5A75629DC37D800710C18 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A75829DC37D800710C18 /* AppEndpoints */,
+				7DB5A75729DC37D800710C18 /* ParameterEncoding.swift */,
+				7DB5A75A29DC37D800710C18 /* API.swift */,
+				7DB5A75B29DC37D800710C18 /* Ednpoint+Default.swift */,
+				7DB5A75C29DC37D800710C18 /* APODResponseData.json */,
+				7DB5A75D29DC37D800710C18 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7DB5A75829DC37D800710C18 /* AppEndpoints */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A75929DC37D800710C18 /* APODEndpoint.swift */,
+			);
+			path = AppEndpoints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +407,8 @@
 			files = (
 				7DB5A6FE29DC13A100710C18 /* LaunchScreen.storyboard in Resources */,
 				7DB5A6FB29DC13A100710C18 /* Assets.xcassets in Resources */,
-				7DB5A6F929DC139F00710C18 /* Main.storyboard in Resources */,
+				7DB5A76229DC37D800710C18 /* APODResponseData.json in Resources */,
+				7DB5A76529DC633700710C18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +433,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB5A75F29DC37D800710C18 /* APODEndpoint.swift in Sources */,
+				7DB5A76329DC37D800710C18 /* Endpoint.swift in Sources */,
 				7DB5A6F629DC139F00710C18 /* ViewController.swift in Sources */,
 				7DB5A6F229DC139F00710C18 /* AppDelegate.swift in Sources */,
+				7DB5A73929DC15BE00710C18 /* APODDataInteractor.swift in Sources */,
+				7DB5A73729DC15BE00710C18 /* APODContentView.swift in Sources */,
+				7DB5A75429DC37D100710C18 /* UIImageview+URL.swift in Sources */,
+				7DB5A76129DC37D800710C18 /* Ednpoint+Default.swift in Sources */,
 				7DB5A6F429DC139F00710C18 /* SceneDelegate.swift in Sources */,
+				7DB5A76029DC37D800710C18 /* API.swift in Sources */,
+				7DB5A73629DC15BE00710C18 /* HomeBuilder.swift in Sources */,
+				7DB5A73829DC15BE00710C18 /* APODRepository.swift in Sources */,
+				7DB5A74829DC171500710C18 /* APODData.swift in Sources */,
+				7DB5A73C29DC15BE00710C18 /* PanZoomImageView.swift in Sources */,
+				7DB5A73329DC15BE00710C18 /* HomeViewModel.swift in Sources */,
+				7DB5A74C29DC37C200710C18 /* ImageCache.swift in Sources */,
+				7DB5A73B29DC15BE00710C18 /* APODCacheRepository.swift in Sources */,
+				7DB5A74729DC171500710C18 /* APODResponseModel.swift in Sources */,
+				7DB5A75529DC37D100710C18 /* UIScrollview+ArrangeView.swift in Sources */,
+				7DB5A73D29DC15BE00710C18 /* PhotoDetailViewController.swift in Sources */,
+				7DB5A75E29DC37D800710C18 /* ParameterEncoding.swift in Sources */,
+				7DB5A73A29DC15BE00710C18 /* APODAPIRepository.swift in Sources */,
+				7DB5A73429DC15BE00710C18 /* APODDataInteractorProtocol.swift in Sources */,
+				7DB5A75329DC37D100710C18 /* Encodable+JSON.swift in Sources */,
+				7DB5A73529DC15BE00710C18 /* HomeViewController.swift in Sources */,
+				7DB5A73F29DC15BE00710C18 /* PhotoDetailViewModel.swift in Sources */,
+				7DB5A74929DC171500710C18 /* APODRequestModel.swift in Sources */,
+				7DB5A73E29DC15BE00710C18 /* PhotoDetailBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +497,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DB5A6F729DC139F00710C18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DB5A6F829DC139F00710C18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DB5A6FC29DC13A100710C18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
