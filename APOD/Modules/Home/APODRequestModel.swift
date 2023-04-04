@@ -8,5 +8,5 @@
 import Foundation
 
 struct APODRequestModel: Encodable {
-    let date: String?
+    let date: String
 }

@@ -15,9 +15,14 @@ extension UIImageView {
         }
 
         let activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView.init(style: .medium)
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         addSubview(activityIndicator)
         activityIndicator.startAnimating()
         activityIndicator.center = self.center
+        NSLayoutConstraint.activate([
+            activityIndicator.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            activityIndicator.centerYAnchor.constraint(equalTo: self.centerYAnchor)
+        ])
 
         if let cacheImage = Self.imageCache[url.lastPathComponent] {
             image = cacheImage

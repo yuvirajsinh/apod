@@ -81,7 +81,7 @@ final class APODContentView: UIView {
             scrollView.topAnchor.constraint(equalTo: self.topAnchor),
             scrollView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
 
-            imageView.heightAnchor.constraint(equalToConstant: 400.0)
+            imageView.heightAnchor.constraint(equalToConstant: 300.0)
         ])
     }
 

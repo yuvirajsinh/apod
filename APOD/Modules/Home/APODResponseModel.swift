@@ -9,11 +9,11 @@ import Foundation
 
 struct APODResponseModel: APODData, Codable {
     var copyright: String?
-    var date: String?
-    var explanation: String?
+    var date: String
+    var explanation: String
     var hdurl: URL?
     var media_type: String?
     var service_version: String?
-    var title: String?
+    var title: String
     var url: URL?
 }
