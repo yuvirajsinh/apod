@@ -52,7 +52,10 @@ final class HomeViewModel: HomeViewModelable {
                         self.presenter?.showAlert(title: "No internet", message: "We are not connected to the internet, showing you the last image we have.")
                     }
                 default:
-                    debugPrint(error.localizedDescription)
+                    DispatchQueue.main.async {
+                        self.presenter?.stopLoading()
+                        self.presenter?.showAlert(title: "Error", message: error.localizedDescription)
+                    }
                 }
             }
         }

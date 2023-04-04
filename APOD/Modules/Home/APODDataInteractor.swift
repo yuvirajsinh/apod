@@ -32,7 +32,7 @@ final class APODDataInteractor: APODDataInteractorProtocol {
             saveToCache(apodData: newData as! Encodable)
             return newData
         } catch {
-            guard let oldData = apodData else {
+            guard let oldData = apodData, (error as NSError).code == -1009 else {
                 throw error
             }
             throw APODDataInteractorError.oldDataFound(oldData)

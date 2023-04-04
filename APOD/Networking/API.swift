@@ -60,7 +60,6 @@ final class APIManager {
         networking.execute(urlRequest(for: request)) { responseData, response, error in
             if let data = responseData {
                 do {
-                    // debugPrint("Response: \n \(String(data: data, encoding: .utf8))")
                     let response = try self.decoder.decode(Value.self, from: data)
                     self.responseQueue.async {
                         completion(.success(response))
