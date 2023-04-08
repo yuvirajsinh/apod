@@ -17,6 +17,8 @@ protocol HomeViewPresenter: AnyObject {
 
 final class HomeViewModel: HomeViewModelable {
     weak var presenter: HomeViewPresenter?
+    weak var coordinator: MainCoordinator?
+
     private let dependency: HomeDependency
     private let dataInteractor: APODDataInteractorProtocol
 
@@ -63,7 +65,10 @@ final class HomeViewModel: HomeViewModelable {
 
     func showFullImage(image: UIImage?) {
         guard let img = image else { return }
-        let detailBuilder = PhotoDetailBuilder(dependency: PhotoDetailDependency(image: img))
-        presenter?.navigateToFullImage(builder: detailBuilder)
+        coordinator?.showFullImage(image: img)
+        
+//        guard let img = image else { return }
+//        let detailBuilder = PhotoDetailBuilder(dependency: PhotoDetailDependency(image: img))
+//        presenter?.navigateToFullImage(builder: detailBuilder)
     }
 }

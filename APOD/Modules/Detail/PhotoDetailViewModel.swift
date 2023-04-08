@@ -13,6 +13,7 @@ protocol PhotoDetailPresenter: AnyObject {
 
 final class PhotoDetailViewModel: PhotoDetailViewModelable {
     weak var presenter: PhotoDetailPresenter?
+    weak var coordinator: DetailCoordinator?
     
     private let dependency: PhotoDetailDependency
     
@@ -22,5 +23,9 @@ final class PhotoDetailViewModel: PhotoDetailViewModelable {
 
     func loadImage() {
         presenter?.setImage(dependency.image)
+    }
+
+    func didSawImge() {
+        coordinator?.didSawImage()
     }
 }

@@ -49,6 +49,9 @@
 		7DB5A77329DC83C100710C18 /* APODDataModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A77229DC83C100710C18 /* APODDataModelMock.swift */; };
 		7DB5A77529DC8EB000710C18 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A77429DC8EB000710C18 /* HomeViewModelTests.swift */; };
 		7DB5A77729DC928600710C18 /* HomeViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A77629DC928600710C18 /* HomeViewBuilderTests.swift */; };
+		7DB5A77C29DFF73C00710C18 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A77B29DFF73C00710C18 /* Coordinator.swift */; };
+		7DB5A77E29DFF95700710C18 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A77D29DFF95700710C18 /* MainCoordinator.swift */; };
+		7DB5A78029E029A300710C18 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A77F29E029A300710C18 /* DetailCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +118,9 @@
 		7DB5A77229DC83C100710C18 /* APODDataModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODDataModelMock.swift; sourceTree = "<group>"; };
 		7DB5A77429DC8EB000710C18 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		7DB5A77629DC928600710C18 /* HomeViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBuilderTests.swift; sourceTree = "<group>"; };
+		7DB5A77B29DFF73C00710C18 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		7DB5A77D29DFF95700710C18 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		7DB5A77F29E029A300710C18 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,7 @@
 		7DB5A6F029DC139F00710C18 /* APOD */ = {
 			isa = PBXGroup;
 			children = (
+				7DB5A77A29DFF6FA00710C18 /* Coordinator */,
 				7DB5A6F129DC139F00710C18 /* AppDelegate.swift */,
 				7DB5A6F329DC139F00710C18 /* SceneDelegate.swift */,
 				7DB5A6F529DC139F00710C18 /* ViewController.swift */,
@@ -330,6 +337,16 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
+		7DB5A77A29DFF6FA00710C18 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5A77B29DFF73C00710C18 /* Coordinator.swift */,
+				7DB5A77D29DFF95700710C18 /* MainCoordinator.swift */,
+				7DB5A77F29E029A300710C18 /* DetailCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -474,12 +491,15 @@
 				7DB5A76029DC37D800710C18 /* API.swift in Sources */,
 				7DB5A73629DC15BE00710C18 /* HomeBuilder.swift in Sources */,
 				7DB5A73829DC15BE00710C18 /* APODRepository.swift in Sources */,
+				7DB5A78029E029A300710C18 /* DetailCoordinator.swift in Sources */,
 				7DB5A74829DC171500710C18 /* APODData.swift in Sources */,
+				7DB5A77E29DFF95700710C18 /* MainCoordinator.swift in Sources */,
 				7DB5A73C29DC15BE00710C18 /* PanZoomImageView.swift in Sources */,
 				7DB5A73329DC15BE00710C18 /* HomeViewModel.swift in Sources */,
 				7DB5A74C29DC37C200710C18 /* ImageCache.swift in Sources */,
 				7DB5A73B29DC15BE00710C18 /* APODCacheRepository.swift in Sources */,
 				7DB5A74729DC171500710C18 /* APODResponseModel.swift in Sources */,
+				7DB5A77C29DFF73C00710C18 /* Coordinator.swift in Sources */,
 				7DB5A75529DC37D100710C18 /* UIScrollview+ArrangeView.swift in Sources */,
 				7DB5A73D29DC15BE00710C18 /* PhotoDetailViewController.swift in Sources */,
 				7DB5A75E29DC37D800710C18 /* ParameterEncoding.swift in Sources */,

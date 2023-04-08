@@ -9,6 +9,7 @@ import UIKit
 
 protocol PhotoDetailViewModelable {
     func loadImage()
+    func didSawImge()
 }
 
 final class PhotoDetailViewController: UIViewController {
@@ -59,6 +60,7 @@ final class PhotoDetailViewController: UIViewController {
 
     @objc private func doneClicked() {
         dismiss(animated: true)
+        viewModel.didSawImge()
     }
 }
 

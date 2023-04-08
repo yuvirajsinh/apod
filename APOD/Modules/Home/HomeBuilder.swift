@@ -13,6 +13,7 @@ struct HomeDependency {
 
 struct HomeBuilder {
     let dependency: HomeDependency
+    let coordinator: MainCoordinator?
 
     func build() -> UIViewController {
         let dataInteractor = APODDataInteractor(
@@ -22,6 +23,7 @@ struct HomeBuilder {
         let viewModel = HomeViewModel(dependency: dependency, dataInteractor: dataInteractor)
         let viewController = HomeViewController(viewModel: viewModel)
         viewModel.presenter = viewController
+        viewModel.coordinator = coordinator
         return viewController
     }
 }

@@ -13,11 +13,13 @@ struct PhotoDetailDependency {
 
 struct PhotoDetailBuilder {
     let dependency: PhotoDetailDependency
-    
+    let coordinator: DetailCoordinator?
+
     func build() -> UIViewController {
         let viewModel = PhotoDetailViewModel(dependency: dependency)
         let viewController = PhotoDetailViewController(viewModel: viewModel)
         viewModel.presenter = viewController
+        viewModel.coordinator = coordinator
         return viewController
     }
 }
